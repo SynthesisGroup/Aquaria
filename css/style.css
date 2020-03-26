@@ -197,12 +197,12 @@ ul,li{
 	position: relative;
 	display: inline-block;
 	font-size: 13px;
-	line-height: 30px;
+	line-height: 16px;
 	color: #ffffff;
-	padding: 8px 26px;
-	font-weight: 600;
+	padding: 15px 42px;
+	font-weight: 350;
 	overflow: hidden;
-	letter-spacing:3px;
+	letter-spacing: 0.01em;
 	background-color: #31BBD8;
 	text-transform: uppercase;
 	font-family: 'Gotham', sans-serif;
@@ -8533,10 +8533,28 @@ img{
 /*IF MOBILE TOGGLE*/
 .form-section
 {
-	padding: 50px 0px 50px 80px;
+	/*padding: 50px 0px 50px 80px;*/
 }
 
 @media (min-width: 320px) and (max-width: 664px) {
+	.abt-title
+	{
+		margin-top: -3px;
+		font-size: 10px;
+		width: 100%;
+	}
+
+	.sec-aquaria-title .sec-title h3
+	{
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.sec-aquaria-title .sec-title .never-ending-text
+	{
+		width: 100% !important;
+	}
+
 	.book-btn p
 	{
 		text-align: center;
@@ -9154,7 +9172,8 @@ img{
 	.aquaria-haven-awaits .heaven-awaits-grid .grid
 	{
 		width: 100%;
-		margin-left: 20px;
+		/*margin-left: auto;*/
+		right: -15px;
 	}
 
 	.aquaria-haven-awaits .heaven-awaits-grid .grid img
@@ -9184,12 +9203,14 @@ img{
 
 	.welcome-to-aquaria .btn-aquaria
 	{
+
 		position: absolute;
 		padding: 15px 42px;
-		max-width: 165px;
+		/*max-width: 165px;*/
 		height: 46px;
 		margin-top: -40px;
-		margin-left: 80px;
+		margin-left: auto;
+		margin-right: auto;
 		border: 2px solid #31BBD8;
 		box-sizing: border-box;
 		border-radius: 0;
@@ -9568,6 +9589,11 @@ img{
 
 	.news-section .t-copyright
 	{
+		font-family: Gotham, sans-serif;
+		font-style: normal;
+		font-weight: 350;
+		font-size: 14px;
+		line-height: 24px;
 		text-align: center;
 	}
 
@@ -9705,8 +9731,8 @@ img{
 	}
 
 	.form__field:focus {
-	  	padding-bottom: 60px;
-	  	border-bottom: 1px solid #946113;
+	  	/*padding-bottom: 60px;
+	  	border-bottom: 1px solid #946113;*/
 	}
 
 	.btn-full-width {
@@ -10011,6 +10037,9 @@ img{
 /*slider text*/
 h3.header-title-txt 
 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
 	font-family: Gotham, sans-serif;
 	font-style: normal;
 	font-weight: 350;
@@ -10054,6 +10083,14 @@ h3.header-title-txt
 		line-height: 46px;
 		text-transform: uppercase;
 		color: #31BBD8;
+		/*width: 70%;
+		margin-left: auto;
+		margin-right: auto;*/
+	}
+
+	.sec-aquaria-title .sec-title .never-ending-text
+	{
+		width: 70%;
 	}
 
 	.sec-aquaria-title .sec-title .text
@@ -10334,7 +10371,9 @@ h3.header-title-txt
 	width: 200px;
 	height: 44px;
 	margin-top: 50px;
-	margin-left: 42%; 
+	/*margin-left: 42%; */
+	margin-right: auto;
+	margin-left: auto;
 	border: 2px solid #31BBD8;
 	box-sizing: border-box;
 	border-radius: 0;
@@ -10408,23 +10447,6 @@ h3.header-title-txt
 	/*border: 1px solid black;*/
 	/*color: black;*/
 	font-size: 1.33em;
-}
-
-#plans .nav-next
-{
-	background-color: #87C8DA;
-	margin-right: 1000px;
-  	margin-top: 180px;
-  	text-align: center;
-  	color: #ffffff;
-  	/*font-size: 1.6em;
-*/
-  	border-radius: 50%;
-	padding: 10px 17px 10px 17px;
-	/*border: 1px solid black;*/
-	/*color: black;*/
-	font-size: 1.33em;
-
 }
 
 /*#plans .owl-next
@@ -10955,10 +10977,16 @@ h3.header-title-txt
 	{
 		left: 25px !important;
 	}
-
+	h3.header-title-txt
+	{
+		width: 100%;
+	}
 	.welcome-to-aquaria .btn-aquaria
 	{
-		left: -20px;
+		left: 10%;
+		/*display: block;*/
+		/*margin-left: auto !important;
+		margin-right: auto !important*/;
 	}
 
 	.aquaria-haven-awaits .heaven-awaits-grid .grid img
@@ -11063,7 +11091,7 @@ h3.header-title-txt
 
 .welcome-to-aquaria .btn-aquaria
 	{
-		margin-left: 65px;
+		/*margin-left: 65px;*/
 	}
 .index .find-accomodation .book-now
 	{
@@ -11172,7 +11200,7 @@ h3.header-title-txt
 
 .welcome-to-aquaria .btn-aquaria
 	{
-		margin-left: 90px;
+		/*margin-left: 90px;*/
 	}
 
 .index .find-accomodation .book-now
@@ -11339,7 +11367,7 @@ h3.header-title-txt
 	}*/
 .welcome-to-aquaria .btn-aquaria
 	{
-		left: -8px;
+		/*left: -8px;*/
 	}
 .index .find-accomodation .book-now
 	{
@@ -12302,13 +12330,13 @@ h3.header-title-txt
 	}
 
 	.form__field {
-	  	font-family: inherit;
+	  	font-family: Gotham, sans-serif;
 	  	width: 100%;
 	  	border: 0;
-	  	border-bottom: 2px solid #BFD6E3;
+	  	border-bottom: 1px solid #BFD6E3;
 	  	outline: 0;
-	  	font-size: 16px;
-	  	color: #212121;
+	  	font-size: 14px;
+	  	color: #646464;
 	  	padding: 7px 0;
 	  	padding-left: 30px;
 	  	background: transparent;
@@ -12324,7 +12352,7 @@ h3.header-title-txt
 	  	cursor: text;
 	  	top: 20px;
 	  	font-family: 'Karla', sans-serif;
-	  	color: #6C7489;
+	  	color: #BFD6E3;
 	}
 
 	label,
@@ -12334,16 +12362,16 @@ h3.header-title-txt
 	  	display: block;
 	  	transition: 0.2s;
 	  	font-size: 12px;
-	  	color: #6C7489;
+	  	color: #BFD6E3;
 	}
 
 	.form__field:focus ~ .form__label {
-	  	color: #946113;
+	  	color: #BFD6E3;
 	}
 
 	.form__field:focus {
 	  	padding-bottom: 6px;
-	  	border-bottom: 1px solid #946113;
+	  	border-bottom: 1px solid #BFD6E3;
 	}
 
 	.amenities {
@@ -12449,7 +12477,7 @@ p.heading-title {
 	line-height: 34px;
 	text-align: left;
 	letter-spacing: 0.15em;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	color: #3B444D;
 	margin-top: 30px;
 }
@@ -12516,6 +12544,28 @@ h3.gallery-title {
 
 .footer-heading {
 	font-family: 'Karla', sans-serif;
+}
+
+.vsp
+{
+	font-family: Gotham, sans-serif;
+	font-style: normal;
+	font-weight: 325;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0.01em;
+	color: #FFFFFF;
+}
+
+.social-icons-margin a
+{
+	font-family: Gotham, sans-serif;
+	font-style: normal;
+	font-weight: 350;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.01em;
+	color: #FFFFFF;
 }
 
 .social-icons-margin {
@@ -12760,7 +12810,7 @@ label,
 	font-size: 15px;
   	position: relative;
   	padding: 25px 0 0;
-  	margin-top: 15px;
+  	/*margin-top: 15px;*/
   	width: 100%;
   	display: inline-flex;
   	flex-direction: row;
@@ -12799,8 +12849,13 @@ label,
   	top: 0;
   	display: block;
   	transition: 0.2s;
-  	font-size: 12px;
-  	color: #936510;
+  	/*font-size: 12px;*/
+  	font-family: Gotham, sans-serif;
+	font-style: normal;
+	font-weight: 325;
+	/*font-size: 14px;*/
+	line-height: 145%;
+  	/*color: #936510;*/
 }
 
 .sort_form__field:focus ~ .form__label {
@@ -13107,8 +13162,8 @@ input[type=checkbox]:checked:disabled + label:before {
 	line-height:35px;
 	color:#ffffff;
 	font-weight:400;
-	margin: 10px;
-	top: 20px;
+	/*margin: 10px;*/
+	/*top: 20px;*/
 	display:inline-block;
 	border:1px solid #36bdac;
 	-webkit-transition:all 300ms ease;
@@ -13495,12 +13550,13 @@ input[type=checkbox]:checked:disabled + label:before {
 	{
 		margin-top: -5px;
 		text-align: center;
+		font-size: 13px;
 	}
 
 	.welcome-to-aquaria .btn-aquaria
 	{
 		position: static;
-		margin-left: -120px;
+		/*margin-left: -120px;*/
 	}
 
 	/*.welcome-to-aquaria .sec-aquaria-title .sec-title p
@@ -13650,6 +13706,17 @@ input[type=checkbox]:checked:disabled + label:before {
 {
 	color: #00516F;
 	width: 100%;
+}
+
+.text-overlap
+{
+	font-family: Gotham, sans-serif;
+	font-style: normal;
+	font-weight: 350;
+	font-size: 16px;
+	line-height: 28px;
+	text-align: center;
+	color: #FFFFFF;
 }
 /*IF IPAD TOGGLE*/
 /*@media only screen and (min-width: 800px) {*/
